@@ -16,8 +16,6 @@ body:
 
         ```
         
-	#### 생각
-        
       render: bash
     validations:
       required: true
