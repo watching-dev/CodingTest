@@ -1,5 +1,4 @@
 title: "000. [120583 / 프로그래머스] 중복된 숫자 개수"
-labels: ["General Introduction"]
 body:
   - type: markdown
     attributes:
@@ -11,10 +10,17 @@ body:
       label: 문제 풀이
       description: "풀이 방법"
       value: |
-        문제 주소: 
-        ```
-
-        ```
+        문제 주소:
+        
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: improvements
+    attributes:
+      label: 생각
+      description: "문제 풀때 생각"
+      value: |
         
       render: bash
     validations:
@@ -24,7 +30,6 @@ body:
       label: 내가 느낀 문제 난이도
       options:
         - label: ⭐️
-          required: true
         - label: ⭐️⭐️
         - label: ⭐️⭐️⭐️
         - label: ⭐️⭐️⭐️⭐️
