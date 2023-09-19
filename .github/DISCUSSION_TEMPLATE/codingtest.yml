@@ -1,55 +1,31 @@
-title: "[General] "
+title: "000. [120583 / 프로그래머스] 중복된 숫자 개수"
 labels: ["General Introduction"]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        문제 해결에 대한 생각을 작성하기
   - type: textarea
     id: improvements
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
+      label: 문제 풀이
+      description: "풀이 방법"
       value: |
-        1.
-        2.
-        3.
-        ...
+        문제 주소: 
+        ```
+
+        ```
+        
       render: bash
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
-    attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
     validations:
       required: true
   - type: checkboxes
     attributes:
-      label: Check that box!
+      label: 내가 느낀 문제 난이도
       options:
-        - label: This one!
+        - label: ⭐️
           required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
-    attributes:
-      value: |
-        ### The thrilling conclusion
-        _to our template_
+        - label: ⭐️⭐️
+        - label: ⭐️⭐️⭐️
+        - label: ⭐️⭐️⭐️⭐️
+        - label: ⭐️⭐️⭐️⭐️⭐️
