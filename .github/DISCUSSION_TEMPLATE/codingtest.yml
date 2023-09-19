@@ -16,7 +16,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: improvements
+    id: improvements2
     attributes:
       label: 생각
       description: "문제 풀때 생각"
