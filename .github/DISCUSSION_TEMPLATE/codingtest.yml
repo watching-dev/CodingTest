@@ -21,7 +21,7 @@ body:
       label: 생각
       description: "문제 풀때 생각"
       value: |
-        
+        생각
       render: bash
     validations:
       required: true
